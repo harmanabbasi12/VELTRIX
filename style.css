@@ -1,0 +1,573 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 2000px;
+    background-color: rgba(0, 0, 0, 0.96);
+}
+nav{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+.logo{
+    width: 100px;
+    height: 120px;
+    background-image: url(logo.png);
+    background-size: 100px 120px;
+    position: absolute;
+    left: 100px;
+}
+.fa-solid{
+    font-size: 16pt;
+    color: white;
+    position: absolute;
+    right: 150px;
+    top: 40px;
+}
+.fa-slab-press{
+    font-size: 16pt;
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+.my-cart{
+     font-size: 16pt;
+    color: white;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+}
+.backpic{
+    height: 500px;
+    background-image: url(backpic.png);
+    background-size: 100% 500px;
+    position: relative;
+}
+.txtcontainer1{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.blackpaper{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.659);
+    display: none;
+}
+.backpic:hover .blackpaper{
+    display: block;
+}
+.txt{   
+    position: absolute;
+    color: white;
+}
+.txt2{
+    font-size: 32pt;
+    position: absolute;
+    color: white;
+    top: 20px;
+    font-family: arial;
+    left: 0;
+}
+.txt3{
+    font-size: 32pt;
+    position: absolute;
+    color: white;
+    top: 60px;
+    font-family: arial;
+    left: 0;
+}
+.txt4{
+    font-size: 32pt;
+    position: absolute;
+    color: red;
+    top: 60px;
+    font-family: arial;
+    left: 210px;
+}
+.txt5{
+    font-size: 10pt;
+    font-family: arial;
+    position: absolute;
+    top: 120px;
+    font-family: arial;
+    left: 0;   
+    color: white;
+}
+.txt6{
+background-color: red;
+width: 160px;
+height: 50px;
+position: relative;
+top: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+}
+.my-arrow0{
+    position: relative;
+    top: 3px;
+    left: 10px;
+    font-size: 14pt;
+}
+.deco{
+    text-decoration: none;
+    color: white;
+}
+.txtcontainer2{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 100px;
+    left: 1380px;
+}
+.text1{
+    font-size: 16pt;
+    font-family: arial;
+    color: white;
+}
+.text2{
+    font-size: 40pt;
+    font-family: arial;
+    color: red;
+}
+.text3{
+    font-size: 18pt;
+    font-family: arial;
+    color: red;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+.text4{
+    font-size: 12pt;
+    font-family: arial;
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 55px;
+}
+.text5{
+    font-size: 10pt;
+    font-family: arial;
+    color: white;
+    top: 80px;
+    position: absolute;
+}
+.container3{
+    height: 200px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lists{
+    height: 100px;
+    width: 180px;
+    background-color: rgba(169, 169, 169, 0.266);
+    border-radius: 10px;
+}
+.sneakers{
+    background-image: url(sneakers\ shoes.png);
+    background-size: 100px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.name{
+    font-family: arial;
+    font-size: 12pt;
+    position: absolute;
+    top: 125px;
+    left: 150px;
+    color: white;
+}
+.friend{
+    text-decoration: none;
+    color: white;
+}
+.my-arrow{
+    position: absolute;
+    top: 2px;
+    left: 70px;
+    font-size: 12pt;
+}
+.lists2{
+    height: 100px;
+    width: 180px;
+    background-color: rgba(169, 169, 169, 0.266);
+    border-radius: 10px;
+}
+.running{
+    background-image: url(running\ shoes.png);
+    background-size: 100px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.name2{
+    font-family: arial;
+    font-size: 12pt;
+    position: absolute;
+    top: 125px;
+    left: 440px;
+    color: white;
+}
+.friend2{
+    text-decoration: none;
+    color: white;
+}
+.my-arrow2{
+    position: absolute;
+    top: 2px;
+    left: 70px;
+    font-size: 12pt;
+}
+.lists3{
+    height: 100px;
+    width: 180px;
+    background-color: rgba(169, 169, 169, 0.266); 
+    border-radius: 10px;
+}
+.formal{
+    background-image: url(formal\ shoes.png);
+    background-size: 100px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.name3{
+    font-family: arial;
+    font-size: 12pt;
+    position: absolute;
+    top: 125px;
+    left: 720px;
+    color: white;
+}
+.friend3{
+    text-decoration: none;
+    color: white;
+}
+.my-arrow3{
+    position: absolute;
+    top: 2px;
+    left: 70px;
+    font-size: 12pt;
+}
+.lists4{
+    height: 100px;
+    width: 180px;
+    background-color: rgba(169, 169, 169, 0.266);
+    border-radius: 10px;
+}
+.boots{
+    background-image: url(boot\ shoes.png);
+    background-size: 100px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.name4{
+    font-family: arial;
+    font-size: 12pt;
+    position: absolute;
+    top: 125px;
+    left: 1000px;
+    color: white;
+}
+.friend4{
+    text-decoration: none;
+    color: white;
+}
+.my-arrow4{
+    position: absolute;
+    top: 2px;
+    left: 70px;
+    font-size: 12pt;
+}
+.lists5{
+    height: 100px;
+    width: 180px;
+    background-color: rgba(169, 169, 169, 0.266);
+    border-radius: 10px;
+}
+.chappal{
+    background-image: url(chappal.png);
+    background-size: 100px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.name5{
+    font-family: arial;
+    font-size: 12pt;
+    position: absolute;
+    top: 125px;
+    left: 1280px;
+    color: white;
+}
+.friend5{
+    text-decoration: none;
+    color: white;
+}
+.my-arrow5{
+    position: absolute;
+    top: 2px;
+    left: 70px;
+    font-size: 12pt;
+}
+.container4{
+    height: 100px;
+    display: flex;
+    position: relative;
+    top: 50px;
+    align-items: flex-end;
+}
+.centertext{
+    font-family: arial;
+    font-size: 32pt;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 100px;
+}
+.centertext2{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    right: 150px;
+    top: 60px;
+}
+.my-arrow6{
+    color: white;
+    font-size: 12pt;
+    right: 120px;
+    top: 62px;
+}
+.container5{
+    height: 400px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.pics{
+    height: 280px;
+    width: 200px;
+    background-color: rgba(169, 169, 169, 0.266);
+    background-image: url(nike\ sneaker.png);
+    background-size: 150px 100px;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 10px;
+}
+.picbox{
+    height: 180px;
+    width: 160px;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+.pictext{
+    font-family: arial;
+    font-size: 12pt;
+    color: white;
+}
+.pictext2{
+    font-family: arial;
+    font-size: 8pt;
+    color: grey;
+    position: absolute;
+    top: 20px;
+}
+.pictext3{
+    font-family: arial;
+    font-size: 14pt;
+    color: white;
+    position: absolute;
+    top: 40px;
+}
+.pictext4{
+    font-family: arial;
+    font-size: 8pt;
+    color: grey;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+}
+.my-star{
+    color: yellow;
+    font-size: 10pt;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+}
+.my-star2{
+    color: yellow;
+    font-size: 10pt;
+    position: absolute;
+    top: 70px;
+    left: 16px;
+}
+.my-star3{
+    color: yellow;
+    font-size: 10pt;
+    position: absolute;
+    top: 70px;
+    left: 32px;
+}
+.my-star4{
+    color: yellow;
+    font-size: 10pt;
+    position: absolute;
+    top: 70px;
+    left: 49px;
+}
+.my-star5{
+    color: yellow;
+    font-size: 10pt;
+    position: absolute;
+    top: 70px;
+    left: 66px;
+}
+.icontext{
+    font-family: arial;
+    font-size: 8pt;
+    color: grey;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+.picbutton{
+    background-color: rgba(128, 128, 128, 0.555);
+    border: 1px solid white;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    border-radius: 10px;
+}
+.pic-cart{
+    color: white;
+    font-size: 10pt;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+.picancer{
+    text-decoration: none;
+    color: white;
+}
+.pics2{
+    height: 280px;
+    width: 200px;
+   background-color: rgba(169, 169, 169, 0.266);
+    background-image: url(running\ shoe\ image.png);
+    background-size: 150px 100px;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 10px;
+}
+.pics3{
+    height: 280px;
+    width: 200px;
+    background-color: rgba(169, 169, 169, 0.266);
+    background-image: url(brown\ formals.png);
+    background-size: 150px 100px;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 10px;
+}
+.pics4{
+    height: 280px;
+    width: 200px;
+    background-color: rgba(169, 169, 169, 0.266);
+    background-image: url(brown\ boots.png);
+    background-size: 150px 100px;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 10px;
+}
+.pics5{
+    height: 280px;
+    width: 200px;
+    background-color: rgba(169, 169, 169, 0.266);
+    background-image: url(slippers.png);
+    background-size: 150px 100px;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 10px;
+}
+.backpic2{
+    height: 200px;
+    width: 1320px;
+    background-image: url(backpic\ 2.png);
+    background-size: 1320px 200px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 100px;
+    left: 95px;
+    border-radius: 10px;
+}
+.backtext{
+    height: 200px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+.font{
+    color: whitesmoke;
+    font-size: 18pt;
+}
+.font2{
+    font-size: 28pt;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font3{
+    font-size: 8pt;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 80px;
+}
+.font4{
+    font-size: 12pt;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    background-color: red;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+.my-arrow7{
+    font-size: 12pt;
+    position: absolute;
+    left: 100px;
+    top: 13px;
+}
